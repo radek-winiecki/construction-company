@@ -485,4 +485,91 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     margin-top: -35px;
 }
 
+#testimonials-slider .slick-next {
+    right: 0;
+}
+
 /* end of testimonials section */
+
+/* contact us section */
+
+#contact {
+    background: #f8f9fa;
+    padding: 4rem 0 8rem;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#form-container {
+    width: 50%;
+    background: #ffffff;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+#form-container h3 {
+    color: #000;
+    font-family: playfair, sans-serif;
+    margin-bottom: 2rem;
+}
+
+#form-container label {
+    display: block;
+    color: #000;
+    margin-top: 1rem;
+}
+
+#form-container input, #form-container textarea {
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    height: 43px;
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    color: #495057;
+}
+
+#form-container textarea {
+    height: 170px;
+    margin-bottom: 2rem;
+    resize: none;
+}
+
+#address-container {
+    width: 38%;
+    background: #ffffff;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+#address-container label {
+    font-weight: 700;
+    display: block;
+    margin-top: 2rem;
+}
+
+#address-container label:first-child {
+    margin-top: 0;
+}
+
+#address-container address {
+    margin-bottom: 1.5rem;
+    font-style: normal;
+}
+
+#address-container a {
+    text-decoration: none;
+    color: #f69314;
+}
+
+#address-container a:hover {
+    text-decoration: underline;
+}
+
+/* end of contact us section */
