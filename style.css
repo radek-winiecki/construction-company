@@ -389,3 +389,51 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 /* end of estate company section */
+
+/* services section */
+
+#services {
+    background: #f8f9fa;
+    padding: 6rem 0;
+    margin: 8rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#services .flex {
+    flex-wrap: wrap;
+}
+
+#services .flex > div {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+#services .flex > div .fas {
+    color: #f69314;
+    font-size: 40px;
+    float: left;
+    margin-top: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+#services .flex > div .services-card-right {
+    float: right;
+    width: 75%;
+}
+
+#services .flex > div a {
+    color: #f69314;
+    text-decoration: none;
+}
+
+#services .flex > div a:hover {
+    text-decoration: underline;
+}
+
+/* end of services section */
