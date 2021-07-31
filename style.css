@@ -208,3 +208,31 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 /* end of hero section */
+
+/* how it works section */
+
+#how-it-works {
+    padding: 3rem 0;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+#how-it-works h2 {
+    margin-bottom: 3rem;
+}
+
+#how-it-works .flex > div {
+    width: 30%;
+}
+
+#how-it-works h4 {
+    color: #343a40;
+    margin-top: 1rem;
+}
+
+#how-it-works span.fas {
+    color: #f69314;
+    font-size: 35px;
+}
+
+/* end of how it works section */
