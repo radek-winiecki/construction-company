@@ -325,3 +325,42 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 /* end of properties section */
+
+/* agents section */
+
+#agents {
+    margin: 4rem 0 6rem;
+    padding: 0 0 6rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#agents p.large-paragraph {
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+#agents .flex {
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#agents .card {
+    width: 32%;
+    background: #f0f0f0;
+    margin-bottom: 2rem;
+}
+
+#agents .card img {
+    width: 100%;
+}
+
+#agents .card h3 {
+    font-family: playfair, sans-serif;
+    color: #000;
+}
+
+#agents .card h3, #agents .card p {
+    padding-left: 1rem;
+}
+
+/* end of agents section */
