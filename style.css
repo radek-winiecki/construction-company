@@ -364,3 +364,28 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 /* end of agents section */
+
+/* estate company section */
+
+#the-best {
+    margin: 2rem 0;
+}
+
+#the-best .flex > img {
+    width: 47%;
+}
+
+#the-best .flex > div {
+    width: 40%;
+}
+
+#the-best ul {
+    padding-left: 20px;
+    margin-bottom: 4rem;
+}
+
+#the-best ul li {
+    margin: 10px 0;
+}
+
+/* end of estate company section */
