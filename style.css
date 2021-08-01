@@ -580,139 +580,116 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 
 /* footer section */
 
-footer {
+footer.footer {
+    height: 100%;
     background: #333;
-    padding: 8rem 0;
-}
-
-footer .flex {
-    padding-bottom: 6rem;
-    border-bottom: 1px solid #777777;
-}
-
-footer h5 {
-    color: #ffffff;
-    margin-bottom: 1rem;
-    font-weight: 300;
-}
-
-footer h5.follow-us {
-    margin-top: 1rem;
-}
-
-footer .footer-about {
-    width: 47%;
-}
-
-footer .footer-about p {
-    width: 65%;
-}
-
-footer .footer-quick-links {
-    width: 16%;
-}
-
-footer .footer-quick-links ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer .footer-quick-links ul li {
-    margin: 10px 0;
-}
-
-footer .footer-quick-links ul li a {
-    color: #777777;
-    text-decoration: none;
-}
-
-footer .footer-quick-links ul li a:hover {
-    color: #ffffff;
-}
-
-footer .footer-subscribe {
-    width: 35%;
-}
-
-#subscribe-container {
     position: relative;
 }
 
-footer .footer-subscribe input {
-    border-radius: 30px;
-    height: 43px;
-    font-family: roboto, sans-serif;
-    border: 1px solid #6c757d;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 10px;
+footer.footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2 {
     color: #ffffff;
-    box-sizing: border-box;
-    width: 80%;
 }
 
-footer button.right-rounded {
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background: #f69314;
-    font-size: 16px;
-    color: #000000;
-    padding: 10px 30px 9px;
-    line-height: 1.5;
-    cursor: pointer;
-    border: none;
-    position: absolute;
-    right: 0;
-}
-
-footer button.right-rounded:hover {
-    background: #ffffff;
-}
-
-footer .footer-subscribe ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-footer .footer-subscribe ul li {
+footer.footer .newsletter .form-element {
+    background: black;
     display: inline-block;
-    margin: 0 16px;
 }
 
-footer .footer-subscribe ul li:first-child {
-    margin-left: 0;
+footer.footer .newsletter .form-element input {
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    width: 74%;
 }
 
-footer .footer-subscribe ul li a {
-    text-decoration: none;
-    color: #777777;
+footer.footer .newsletter .form-element span {
+    padding: .5rem .7rem;
+    cursor: pointer;
 }
 
-footer .footer-subscribe ul li a:hover {
+footer.footer .instagram div > img {
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i {
+    color: #888;
+    padding: 0.6rem;
+    font-size: 26px;
+}
+
+footer.footer .follow div i:hover {
     color: #ffffff;
+    cursor: pointer;
+}
+
+footer.footer .rights {
+    justify-content: center;
+    font-family: roboto, sans-serif;
+}
+
+footer.footer .rights h4 a {
+    color: #ffffff;
+}
+
+footer.footer .move-up {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span {
+    color: #f69314;
+}
+
+footer.footer .move-up span:hover {
+    color: #ffffff;
+    cursor: pointer;
 }
 
 footer small {
+    color: #ffffff;
     margin-top: 3rem;
     font-size: 1rem;
     display: block;
     text-align: center;
+    padding-bottom: 45px;
 }
 
 footer small a {
-    color: #777777;
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer small a:hover {
-    color: #ffffff;
+    color: #f69314;
 }
 
 /* end of footer section */
 
 /* media queries */
+
+@media only screen and (max-width: 1130px) {
+    footer.footer .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media (max-width: 991px) {
     #logo {
@@ -871,6 +848,23 @@ footer small a:hover {
 
     footer h5.follow-us {
         margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    footer.footer .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    footer.footer .container > div {
+        padding: 1rem .9rem !important;
+    }
+
+    footer .rights {
+        padding: 0 1.4rem;
+        text-align: center;
     }
 }
 
