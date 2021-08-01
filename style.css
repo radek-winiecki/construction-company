@@ -938,4 +938,20 @@ footer small a:hover {
     }
 }
 
+@media (max-width: 400px) {
+    #hero .hero-text {
+        max-width: 275px;
+        width: 100%;
+    }
+
+    #properties button.rounded {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    nav ul {
+        width: 200px;
+    }
+}
+
 /* end of media queries */
