@@ -555,17 +555,19 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 #address-container {
+    /*margin-top: 100px;*/
     width: 38%;
     background: #fff;
     padding: 1.5rem;
     box-sizing: border-box;
-    height: 0;
+    height: 100%;
 }
 
 #address-container label {
+    font-size: 1.7rem;
     font-weight: 700;
     display: block;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 #address-container label:first-child {
