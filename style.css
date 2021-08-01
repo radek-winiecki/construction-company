@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 
+/* global styles */
+
 body {
     font-family: roboto, sans-serif;
     margin: 0;
@@ -509,7 +511,6 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     background: #ffffff;
     padding: 3rem;
     box-sizing: border-box;
-    height: 0;
 }
 
 #form-container h3 {
@@ -548,7 +549,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     background: #ffffff;
     padding: 1.5rem;
     box-sizing: border-box;
-    height: 0;
+    height: 300px;
 }
 
 #address-container label {
