@@ -42,6 +42,7 @@ h1, h2 {
 }
 
 h1 {
+    color: #000;
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -94,13 +95,14 @@ p.large-paragraph {
 /* header section*/
 
 #header-hero-container {
+    background-color: #fff;
     min-height: 600px;
     height: calc(100vh);
     position: relative;
 }
 
 header {
-    background: transparent;
+    background: #ffffff;
     padding: 1rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: fixed;
@@ -116,6 +118,11 @@ header {
     text-decoration: none;
     position: relative;
     top: 4px;
+}
+
+#logo img {
+    width: 250px;
+    height: 80px;
 }
 
 .hamburger-menu {
@@ -171,7 +178,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 /* hero section */
 
 #hero {
-    background: url("img/background.jpeg") center center no-repeat;
+    background: url("img/background.jpg") center center no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -187,11 +194,11 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(52, 58, 64, 0.9);
     z-index: 1;
 }
 
 #hero .hero-text {
+    background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
     top: 50%;
     margin: -75px auto 0;
@@ -201,9 +208,11 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     color: #ffffff;
     width: 500px;
     text-align: center;
+    padding: 10px 20px;
 }
 
 #hero .hero-text p {
+    color: #000;
     line-height: 1.5em;
     font-weight: 300;
     font-size: 1rem;
