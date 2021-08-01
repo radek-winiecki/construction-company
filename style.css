@@ -17,7 +17,7 @@ body {
 }
 
 *:not(.slick-track):not(.slick-list) {
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .container {
@@ -156,7 +156,7 @@ header ul li {
 }
 
 header ul li a {
-    color: #999;
+    color: #666;
     font-size: 16px;
     text-decoration: none;
 }
@@ -166,7 +166,7 @@ header ul.is-sticky li a {
 }
 
 header ul li a:hover, header ul li a.active {
-    color: #ffffff;
+    color: #000000;
 }
 
 header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
@@ -209,6 +209,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     width: 500px;
     text-align: center;
     padding: 10px 20px;
+    border-radius: 10px;
 }
 
 #hero .hero-text p {
