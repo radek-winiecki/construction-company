@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
-/* global styles */
 
 body {
     font-family: roboto, sans-serif;
@@ -111,6 +110,7 @@ header {
     font-family: roboto, helvetica, sans-serif;
     font-size: 1.7rem;
     font-weight: 800;
+    color: #fff;
     text-decoration: none;
     position: relative;
     top: 4px;
@@ -263,7 +263,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 #properties-slider a.slick-arrow {
     color: #000;
     position: absolute;
-    top: -70px;
+    top: -78px;
     right: 0;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -483,6 +483,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     color: #222;
     top: 50%;
     margin-top: -35px;
+    z-index: 1;
 }
 
 #testimonials-slider .slick-next {
@@ -504,10 +505,11 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 #form-container {
-    width: 50%;
+    width: 58%;
     background: #ffffff;
     padding: 3rem;
     box-sizing: border-box;
+    height: 0;
 }
 
 #form-container h3 {
@@ -527,6 +529,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     border-radius: 20px;
     padding: 10px;
     border: 1px solid #ced4da;
+    width: 100%;
     box-sizing: border-box;
     height: 43px;
     font-family: roboto, sans-serif;
@@ -545,7 +548,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     background: #ffffff;
     padding: 1.5rem;
     box-sizing: border-box;
-    height: 300px;
+    height: 0;
 }
 
 #address-container label {
@@ -739,6 +742,7 @@ footer small a:hover {
         font-size: 30px;
         color: #777777;
         cursor: pointer;
+        display: block;
         line-height: 1;
         margin: 0;
     }
@@ -830,7 +834,7 @@ footer small a:hover {
 
     #form-container {
         width: 100%;
-        margin-top: 2rem;
+        padding: 2rem;
     }
 
     #address-container {
