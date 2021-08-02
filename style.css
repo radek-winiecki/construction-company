@@ -406,6 +406,11 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     margin: 10px 0;
 }
 
+#the-best .specialization {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 /* end of estate company section */
 
 /* services section */
