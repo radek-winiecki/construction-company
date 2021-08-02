@@ -223,6 +223,10 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     font-size: 2.2rem;
 }
 
+#hero .hero-text p i {
+    color: #000;
+}
+
 /* end of hero section */
 
 /* how it works section */
@@ -609,7 +613,7 @@ footer {
 
 footer.footer .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 footer.footer .container > div {
@@ -620,6 +624,10 @@ footer.footer .container > div {
 
 footer.footer .container h2 {
     color: #ffffff;
+}
+
+footer.footer .container .about-us p i {
+    color: #f69314;
 }
 
 footer.footer .newsletter .form-element {
@@ -680,7 +688,7 @@ footer.footer .move-up span {
 }
 
 footer.footer .move-up span:hover {
-    color: #ffffff;
+    color: #ffb758;
     cursor: pointer;
 }
 
@@ -694,12 +702,14 @@ footer small {
 }
 
 footer small a {
-    color: #ffffff;
+    font-size: 1.2rem;
+    color: #f69314;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 footer small a:hover {
-    color: #f69314;
+    color: #ffb758;
 }
 
 /* end of footer section */
