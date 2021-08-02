@@ -246,7 +246,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     margin-top: 1rem;
 }
 
-#how-it-works span.fas {
+#how-it-works i {
     color: #f69314;
     font-size: 35px;
 }
