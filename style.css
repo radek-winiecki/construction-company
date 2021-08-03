@@ -907,6 +907,14 @@ footer small a:hover {
         width: 330px;
     }
 
+    #hero .hero-text h1 {
+        font-size: 2.2rem;
+    }
+
+    #hero .hero-text p {
+        font-size: 1.8rem;
+    }
+
     #agents {
         margin: 4rem 0 3rem;
         padding: 0 0 3rem;
@@ -975,6 +983,19 @@ footer small a:hover {
     #hero .hero-text {
         max-width: 275px;
         width: 100%;
+    }
+
+    #hero .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    #hero .hero-text p {
+        font-size: 1.6rem;
+    }
+
+    #logo img {
+        width: 187px;
+        height: 60px;
     }
 
     #properties button.rounded {
