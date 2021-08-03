@@ -126,8 +126,8 @@ header {
 }
 
 .hamburger-menu {
-    background-color: transparent;
-    border: 1px solid #ffffff;
+    color: #000;
+    border: 1px solid #fff;
     padding: 3px 5px;
     width: 30px;
     cursor: pointer;
@@ -138,7 +138,7 @@ header {
 .hamburger-menu .strip {
     display: block;
     height: 1px;
-    background-color: #ffffff;
+    background-color: #fff;
     margin: 4px 0;
 }
 
@@ -730,6 +730,7 @@ footer small a:hover {
     }
 
     #nav-toggle {
+        color: #000;
         display: block;
     }
 

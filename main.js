@@ -74,7 +74,7 @@ $(function () {
             logo.css('color', '#fff');
             headerElement.css('background', 'transparent');
             navToggle.css('bordre-color', '#fff');
-            navToggle.find('.strip').css('background-color', '#fff');
+            navToggle.find('.strip').css('background-color', '#000');
         }
 
         headerElement.css(scrollTop >= 200 ? {
