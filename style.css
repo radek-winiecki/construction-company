@@ -880,6 +880,10 @@ footer small a:hover {
         width: 100%;
     }
 
+    footer p {
+        font-size: 1rem;
+    }
+
     footer .footer-subscribe input {
         width: 90%;
     }
@@ -903,6 +907,10 @@ footer small a:hover {
     footer .rights {
         padding: 0 1.4rem;
         text-align: center;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }
 
@@ -985,6 +993,10 @@ footer small a:hover {
     footer {
         padding: 4rem 0;
     }
+
+    footer p {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1023,6 +1035,10 @@ footer small a:hover {
         max-width: 90%;
         font-size: 1rem;
         margin: 0 auto;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 
     nav ul {
