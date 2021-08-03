@@ -799,6 +799,10 @@ footer small a:hover {
         font-size: 0.8rem;
     }
 
+    #how-it-works p {
+        font-size: 1rem;
+    }
+
     .container {
         max-width: 540px;
     }
@@ -932,6 +936,10 @@ footer small a:hover {
         display: block;
     }
 
+    #how-it-works p {
+        font-size: 1rem;
+    }
+
     #how-it-works .flex > div {
         width: 100%;
         margin-top: 2rem;
@@ -991,6 +999,10 @@ footer small a:hover {
 
     #hero .hero-text p {
         font-size: 1.6rem;
+    }
+
+    #how-it-works p {
+        font-size: 1rem;
     }
 
     #logo img {
