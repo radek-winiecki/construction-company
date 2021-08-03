@@ -351,14 +351,16 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 /* agents section */
 
 #agents {
+    text-align: center;
     margin: 4rem 0 6rem;
     padding: 0 0 6rem;
     border-bottom: 1px solid #ccc;
 }
 
 #agents p.large-paragraph {
-    width: 50%;
-    margin-bottom: 4rem;
+    text-align: center;
+    margin: 0 auto 4rem;
+    width: 85%;
 }
 
 #agents .flex {
