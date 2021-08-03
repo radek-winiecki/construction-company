@@ -73,7 +73,7 @@ $(function () {
             navMenu.removeClass('is-sticky');
             logo.css('color', '#fff');
             headerElement.css('background', 'transparent');
-            navToggle.css('bordre-color', '#fff');
+            navToggle.css('border-color', '#000');
             navToggle.find('.strip').css('background-color', '#000');
         }
 
