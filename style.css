@@ -1015,6 +1015,16 @@ footer small a:hover {
         width: 100%;
     }
 
+    #properties h2 {
+        margin-bottom: 0;
+    }
+
+    #testimonials-slider p {
+        max-width: 90%;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
     nav ul {
         width: 200px;
     }
