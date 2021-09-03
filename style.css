@@ -86,7 +86,7 @@ button.rounded {
     border-radius: 30px;
     padding: 10px 30px;
     line-height: 1.5;
-    cursor: pointer;
+    cursor: auto;
 }
 
 p.large-paragraph {
@@ -599,11 +599,14 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 #address-container address {
     margin-bottom: 1.5rem;
     font-style: normal;
+    color: #f69314;
+    animation: contactMe_puls 1s linear infinite alternate;
 }
 
-#address-container a {
+#address-container p {
     text-decoration: none;
     color: #f69314;
+    animation: contactMe_puls 1s linear infinite alternate;
 }
 
 #address-container a:hover {
@@ -721,6 +724,19 @@ footer small a:hover {
 }
 
 /* end of footer section */
+
+/* animations */
+
+@keyframes contactMe_puls {
+    0% {
+        color: rgba(246, 147, 20, 0.8);
+    }
+    100% {
+        color: rgb(246, 147, 20);
+    }
+}
+
+/* end of animations */
 
 /* media queries */
 
