@@ -600,16 +600,19 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     margin-bottom: 1.5rem;
     font-style: normal;
     color: #f69314;
-    animation: contactMe_puls 1s linear infinite alternate;
 }
 
 #address-container p {
+    font-size: 1.2rem;
     text-decoration: none;
     color: #f69314;
-    animation: contactMe_puls 1s linear infinite alternate;
 }
 
-#address-container a:hover {
+#address-container p.mobile {
+    animation: contactMe_puls 0.5s linear infinite alternate;
+}
+
+#address-container p:hover {
     text-decoration: underline;
 }
 
@@ -730,9 +733,11 @@ footer small a:hover {
 @keyframes contactMe_puls {
     0% {
         color: rgba(246, 147, 20, 0.8);
+        transform: translateX(0px);
     }
     100% {
         color: rgb(246, 147, 20);
+        transform: translateX(5px);
     }
 }
 
