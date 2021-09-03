@@ -2,6 +2,10 @@
 
 /* global styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: roboto, sans-serif;
     margin: 0;
