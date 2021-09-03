@@ -614,6 +614,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 
 /* start: footer styles */
 footer {
+    overflow: hidden;
     background: #333;
     position: relative;
 }
@@ -727,6 +728,15 @@ footer small a:hover {
     footer.footer .container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    footer p {
+        font-size: 1.4rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -780,6 +790,15 @@ footer small a:hover {
 
     nav ul li a.active, nav ul li a:hover {
         color: #f69314;
+    }
+
+    footer p {
+        font-size: 1.4rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
+        font-size: 1.3rem;
     }
 }
 
@@ -885,10 +904,6 @@ footer small a:hover {
         width: 100%;
     }
 
-    footer p {
-        font-size: 1rem;
-    }
-
     footer .footer-subscribe input {
         width: 90%;
     }
@@ -896,11 +911,34 @@ footer small a:hover {
     footer h5.follow-us {
         margin-top: 2rem;
     }
+
+    footer p {
+        font-size: 1.4rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
+        font-size: 1.3rem;
+    }
+
+    footer.footer .instagram div > img {
+        width: 35%;
+        height: 50%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
     footer.footer .container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer p {
+        font-size: 1.4rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
+        font-size: 1.3rem;
     }
 }
 
@@ -915,7 +953,12 @@ footer small a:hover {
     }
 
     footer p {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
+        font-size: 1.1rem;
     }
 }
 
@@ -1000,7 +1043,12 @@ footer small a:hover {
     }
 
     footer p {
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
+        font-size: 1.1rem;
     }
 }
 
@@ -1044,6 +1092,10 @@ footer small a:hover {
 
     footer p {
         font-size: 1rem;
+    }
+
+    footer small {
+        margin: 0 10px 0 10px;
     }
 
     nav ul {
