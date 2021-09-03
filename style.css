@@ -597,6 +597,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 #address-container address {
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
     font-style: normal;
     color: #f69314;
