@@ -742,6 +742,17 @@ footer small a:hover {
     }
 }
 
+@keyframes navToggle_puls {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
 /* end of animations */
 
 /* media queries */
@@ -769,6 +780,7 @@ footer small a:hover {
     #nav-toggle {
         color: #000;
         display: block;
+        animation: navToggle_puls 1s ease infinite ;
     }
 
     nav ul {
