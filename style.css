@@ -306,6 +306,12 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     margin-top: 20px;
     width: 100%;
     display: block;
+    transition: 0.3s ease all;
+}
+
+#properties-slider img:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px 0 rgb(246, 147, 20);
 }
 
 #properties-slider .property-details {
@@ -383,7 +389,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 #agents .card img {
     width: 365px;
     height: 365px;
-    transition: 0.3s ease transform;
+    transition: 0.3s ease all;
     border: 2px solid transparent;
 }
 
