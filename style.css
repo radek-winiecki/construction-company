@@ -303,6 +303,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 #properties-slider img {
+    margin-top: 20px;
     width: 100%;
     display: block;
 }
@@ -312,6 +313,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 #properties-slider .name {
+    text-align: center;
     font-size: 1.2rem;
     color: #000;
     font-weight: 800;
@@ -954,11 +956,6 @@ footer small a:hover {
         margin: 0 10px 0 10px;
         font-size: 1.3rem;
     }
-
-    footer.footer .instagram div > img {
-        width: 35%;
-        height: 50%;
-    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -1087,6 +1084,14 @@ footer small a:hover {
 }
 
 @media (max-width: 400px) {
+    footer.footer .instagram div > img {
+        display: none;
+    }
+
+    #properties .container:before {
+        top: -44px;
+    }
+
     #agents .card img {
         width: 100%;
         height: 320px;
