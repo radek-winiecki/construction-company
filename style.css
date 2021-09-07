@@ -383,6 +383,13 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 #agents .card img {
     width: 365px;
     height: 365px;
+    transition: 0.3s ease transform;
+    border: 2px solid transparent;
+}
+
+#agents .card:hover img {
+    transform: scale(1.03);
+    border: 2px solid #f69314;
 }
 
 #agents .card h3 {
