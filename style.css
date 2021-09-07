@@ -219,6 +219,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     text-align: center;
     padding: 10px 20px;
     border-radius: 10px;
+    animation: heroText_pulse 1s linear infinite alternate;
 }
 
 #hero .hero-text h1 {
@@ -630,7 +631,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 
 #address-container p.mobile {
-    animation: contactMe_puls 0.5s linear infinite alternate;
+    animation: contactMe_pulse 0.5s linear infinite alternate;
 }
 
 #address-container p:hover {
@@ -751,7 +752,7 @@ footer small a:hover {
 
 /* animations */
 
-@keyframes contactMe_puls {
+@keyframes contactMe_pulse {
     0% {
         color: rgba(246, 147, 20, 0.8);
         transform: translateX(0px);
@@ -762,7 +763,7 @@ footer small a:hover {
     }
 }
 
-@keyframes navToggle_puls {
+@keyframes navToggle_pulse {
     0% {
         opacity: 1;
         transform: scale(1);
@@ -770,6 +771,15 @@ footer small a:hover {
     100% {
         opacity: 0.5;
         transform: scale(1.2);
+    }
+}
+
+@keyframes heroText_pulse {
+    0% {
+        border: 4px solid #f69314;
+    }
+    100% {
+        border: 4px solid transparent;
     }
 }
 
@@ -810,7 +820,7 @@ footer small a:hover {
     #nav-toggle {
         color: #000;
         display: block;
-        animation: navToggle_puls 1s ease infinite ;
+        animation: navToggle_pulse 1s ease infinite ;
     }
 
     nav ul {
