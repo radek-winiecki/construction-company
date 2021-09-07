@@ -57,6 +57,11 @@ h2 {
     color: #f69314;
     margin-bottom: 1rem;
     line-height: 1.2;
+    transition: 3s ease box-shadow;
+}
+
+h2:hover {
+    box-shadow: 2px 2px 2px #f69314;
 }
 
 h3 {
