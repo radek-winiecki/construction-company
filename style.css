@@ -1087,6 +1087,11 @@ footer small a:hover {
 }
 
 @media (max-width: 400px) {
+    #agents .card img {
+        width: 100%;
+        height: 320px;
+    }
+
     #hero .hero-text {
         max-width: 275px;
         width: 100%;
