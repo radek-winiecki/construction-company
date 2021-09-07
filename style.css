@@ -219,7 +219,13 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     text-align: center;
     padding: 10px 20px;
     border-radius: 10px;
-    animation: heroText_pulse 1s linear infinite alternate;
+    border: 2px solid transparent;
+    transition: 0.3s ease all;
+}
+
+#hero .hero-text:hover {
+    transform: scale(1.05);
+    border: 2px solid #f69314;
 }
 
 #hero .hero-text h1 {
@@ -774,15 +780,6 @@ footer small a:hover {
     }
 }
 
-@keyframes heroText_pulse {
-    0% {
-        border: 4px solid #f69314;
-    }
-    100% {
-        border: 4px solid transparent;
-    }
-}
-
 /* end of animations */
 
 /* media queries */
@@ -1152,15 +1149,15 @@ footer small a:hover {
 
     #hero .hero-text {
         max-width: 275px;
-        width: 100%;
+        width: 80%;
     }
 
     #hero .hero-text h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     #hero .hero-text p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     #how-it-works p {
