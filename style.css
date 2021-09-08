@@ -1134,6 +1134,10 @@ footer small a:hover {
 }
 
 @media (max-width: 400px) {
+    #address-container label {
+        font-size: 1.4rem;
+    }
+
     footer.footer .instagram div > img {
         display: none;
     }
