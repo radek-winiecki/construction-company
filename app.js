@@ -3,7 +3,7 @@ const msnry = new Macy({
     mobileFirst: true,
     columns: 1,
     breakAt: {
-        400: 1,
+        400: 2,
         700: 2,
         1100: 3,
     },
