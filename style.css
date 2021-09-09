@@ -30,6 +30,15 @@ body {
     padding: 0 20px;
 }
 
+.masonry_gallery {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.masonry_item {
+    width: 100%;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
