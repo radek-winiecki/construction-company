@@ -94,6 +94,12 @@ button.rounded {
     cursor: auto;
 }
 
+button.realizations {
+    margin: 0 auto;
+    cursor: pointer;
+    animation: realizations_pulse 1s linear infinite alternate;
+}
+
 p.large-paragraph {
     font-size: 1.25rem;
     font-weight: 300;
@@ -777,6 +783,17 @@ footer small a:hover {
     100% {
         opacity: 0.5;
         transform: scale(1.2);
+    }
+}
+
+@keyframes realizations_pulse {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0.9;
+        transform: scale(1.1);
     }
 }
 
