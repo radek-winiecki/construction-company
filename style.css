@@ -534,6 +534,10 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     width: 75%;
 }
 
+#services .services-card-right p {
+    display: none;
+}
+
 #services .flex > div a {
     color: #f69314;
     text-decoration: none;
