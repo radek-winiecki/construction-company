@@ -365,6 +365,7 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     width: 100%;
     display: block;
     transition: 0.3s ease all;
+    border-radius: 20%;
 }
 
 #properties-slider img:hover {
@@ -374,6 +375,10 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 
 #properties-slider .property-details {
     padding: 1rem;
+}
+
+.property-details {
+    text-align: center;
 }
 
 #properties-slider .name {
@@ -660,6 +665,10 @@ header ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     padding: 1.5rem;
     box-sizing: border-box;
     height: 100%;
+}
+
+address {
+    text-align: center;
 }
 
 #address-container label {
