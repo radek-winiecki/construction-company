@@ -52,6 +52,7 @@ body {
     color: #000;
     font-size: 30px;
     transition: 0.3s;
+    border: 2px solid #000;
     animation: return_pulse 1s linear infinite alternate;
 }
 
